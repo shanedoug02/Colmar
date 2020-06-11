@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+    height: 64px;
+
+}
+
+#logoImage-Name {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#logoName1 {
+    font-weight: 900;
+    color: rgb(38, 49, 49);
+}
+
+#logoName2 {
+    color: gray;
+}
+
+nav li {
+    display: inline-block;
+    
+}    
+ 
+main {
+    top: 70px;
+    position: relative;
+    
+}
+
+
+
+
+
+
