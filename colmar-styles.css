@@ -22,6 +22,19 @@ header {
     color: gray;
 }
 
+
+@media only screen and (min-width:401px) {
+    .menuIcon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 401px) {
+    .menuWords {display: none;}
+    }
+}
+
+
 nav li {
     display: inline-block;
     
