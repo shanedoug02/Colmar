@@ -3,43 +3,88 @@ header {
     width: 100%;
     z-index: 11;
     height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
 
 }
 
 #logoImage-Name {
     height: 32px;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-transform: uppercase;
 }
+#logo {
+    display: inline-block;
+    align-items: center;
+    display: flex;
+}
 
 #logoName1 {
+    display: inline-block;
     font-weight: 900;
     color: rgb(38, 49, 49);
 }
 
 #logoName2 {
+    display: inline-block;
     color: gray;
 }
 
 
-@media only screen and (min-width:401px) {
+@media only screen and (min-width:400px) {
     .menuIcon {
         display: none;
     }
 }
 
-@media only screen and (max-width: 401px) {
-    .menuWords {display: none;}
+@media only screen and (max-width: 400px) {
+    .menuWords {display: none;
     }
 }
 
 
+@media only screen and (max-width: 400px) {
+    #logoName1, #logoName2 {
+        display: none;
+    }
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    height: 32px;
+    margin: 0;
+
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    
+} 
+
 nav li {
+    height: 32px;
+    align-items: center;
     display: inline-block;
     
-}    
+}
+
+.menuWords {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    height: 32px;
+}
  
+
+
 main {
     top: 70px;
     position: relative;
