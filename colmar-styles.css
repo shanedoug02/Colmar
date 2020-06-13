@@ -109,13 +109,15 @@ main {
 /* container 1 section*/
 
 #Container1 {
+    
     display: flex;
     background-color: rgb(214, 209, 209);
-    padding: 32px 24px;
+    padding: 32px 0px 32px 24px;
 }
 
 #leftside1  {
     width: 60%;
+    margin-right: 24px;
 
 }
 
@@ -124,8 +126,7 @@ main {
 }
 
 #rightside1 {
-    width: 30%;
-    margin-left: 24px;
+    width: 40%;
     padding-top: 70px;
 }
 
@@ -150,11 +151,86 @@ main {
 /* container 2 section */
 
 #Container2 {
-    display: flex;
     background-color: white;
     
-
 }
+
+#topHalf {
+    display: flex;   
+     
+}
+
+#leftside2 {
+    width: 60%;
+    padding: 32px 24px 0px 24px; 
+    
+}
+
+#infoImg {
+    width: 100%;
+       
+}
+
+#rightside2 {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px solid blue;
+           
+}
+
+#orientation {
+    display: flex;
+    outline: 1px solid black;
+    width: 100%;  
+    margin-left: 16px;
+    margin-top: 32px;
+    
+}
+
+#campus {
+    display: flex;
+    outline: 1px solid orangered;
+    width: 100%;
+    margin-left: 16px;
+    
+}
+
+#imgContainerTop {
+    height: auto;
+    
+    width: 39%;
+    
+}
+
+#imgContainerBot {
+    height: auto;
+    width: 39%;
+    outline: 1px solid red;
+    
+}
+
+#orientationImg {
+    width: 100%;
+    padding-bottom: 16px;
+    
+    
+}
+
+#campusImg {
+    width: 100%;
+    
+    margin-top: 16px;
+}
+
+.infoContainer {
+    
+    outline: 1px solid green;
+}
+
+
+
+/*  version 1.0
 
 #leftside2  {
     width: 60%;
