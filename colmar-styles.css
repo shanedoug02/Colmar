@@ -150,87 +150,15 @@ main {
 
 /* container 2 section */
 
+
+
+
+
+/*  version 1.0 */
+
 #Container2 {
-    background-color: white;
-    
-}
-
-#topHalf {
-    display: flex;   
-     
-}
-
-#leftside2 {
-    width: 60%;
-    padding: 32px 24px 0px 24px; 
-    
-}
-
-#infoImg {
-    width: 100%;
-       
-}
-
-#rightside2 {
-    width: 40%;
     display: flex;
-    flex-wrap: wrap;
-    outline: 1px solid blue;
-           
 }
-
-#orientation {
-    display: flex;
-    outline: 1px solid black;
-    width: 100%;  
-    margin-left: 16px;
-    margin-top: 32px;
-    
-}
-
-#campus {
-    display: flex;
-    outline: 1px solid orangered;
-    width: 100%;
-    margin-left: 16px;
-    
-}
-
-#imgContainerTop {
-    height: auto;
-    
-    width: 39%;
-    
-}
-
-#imgContainerBot {
-    height: auto;
-    width: 39%;
-    outline: 1px solid red;
-    
-}
-
-#orientationImg {
-    width: 100%;
-    padding-bottom: 16px;
-    
-    
-}
-
-#campusImg {
-    width: 100%;
-    
-    margin-top: 16px;
-}
-
-.infoContainer {
-    
-    outline: 1px solid green;
-}
-
-
-
-/*  version 1.0
 
 #leftside2  {
     width: 60%;
@@ -260,18 +188,29 @@ main {
     color: rgb(49, 48, 48);
 }
 
+
+
+
+
+
+
 #rightside2 {
+    
     display: flex;
     width: 40%;
     flex-wrap: wrap;
     margin: 32px 0;
+    align-content: space-between;
 }
 
 
 
 .threeRectangles {
     display: flex;
-    padding-left: 16px;   
+    outline: 2px solid red;
+    
+    
+           
 }
 
 #lastRect {
@@ -279,47 +218,40 @@ main {
 }
 
 
-#imgContainerTop {
-    width: 35%;
-    
+.imgContainer {
+    outline: 1px solid yellow;
+    width: 39%;
+    margin-left: 16px;
+}
+
+#image1 {
+    width: 100%;
+    height: auto;
     padding-bottom: 16px;
-}
-
-#imgContainerMid {
-    width: 35%;
-    margin: 2px 0;
-    padding: 16px 0;
-}
-
-
-#imgContainerBottom {
-    width: 35%;
     
-    padding: 16px 0;
+}
+
+#image2 {
+    width: 100%;
+    height: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}    
+
+#image3 {
+    width: 100%;
+    height: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
 }
 
 
-
-
-
-.microContainerRight  {
+.wordsContainer {
     width: 65%;
-
+    outline: 3px solid purple;
+    padding-left: 30px;
+    
 }
 
-
-#orientationImg {
-    width: 100%;
-    height: 100%;
-}
-
-#campusImg {
-    width: 100%;
-    height: 100%;
-}
-
-#guestImg {
-    width: 100%;
-    height: 100%;
-}
 
