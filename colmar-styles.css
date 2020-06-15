@@ -158,12 +158,18 @@ main {
 
 #Container2 {
     display: flex;
+    outline: 3px solid orangered;
 }
 
 #leftside2  {
     width: 60%;
     margin: 32px 24px; 
     bottom: 0;
+    padding: 0;
+    outline: 2px solid blue;
+    display: flexbox;
+    align-content: space-between;
+    
 }
 
 
@@ -179,6 +185,7 @@ main {
     margin-top: 32px;
     margin-bottom: 24px;
     color: rgb(49, 48, 48);
+    
 }
 
 #dummyQuote {
@@ -186,12 +193,14 @@ main {
     font-weight: 100;
     font-size: 18px;
     color: rgb(49, 48, 48);
+    
 }
 
-
-
-
-
+#wordsUnderImg {
+    display: block;
+    outline: 1px solid black;
+        
+}
 
 
 #rightside2 {
@@ -208,7 +217,7 @@ main {
 .threeRectangles {
     display: flex;
     outline: 2px solid red;
-    
+    align-items: center;
     
            
 }
@@ -244,13 +253,6 @@ main {
     padding-top: 16px;
     padding-bottom: 16px;
     
-}
-
-
-.wordsContainer {
-    width: 65%;
-    outline: 3px solid purple;
-    padding-left: 30px;
     
 }
 
