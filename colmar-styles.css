@@ -5,6 +5,18 @@ body {
     box-sizing: border-box;
 }
 
+main {
+    top: 65px;
+    position: relative;
+}
+
+/*  /////////////////////////////////// 
+
+Header Section 
+
+///////////////////////////////////
+*/
+
 header {
     position: fixed;
     width: 100%;
@@ -98,17 +110,16 @@ nav li {
     margin-left: 16px;
 }
  
+/*  /////////////////////////////////// 
+
+Section 1 
+
+///////////////////////////////////
+*/
 
 
-main {
-    top: 65px;
-    position: relative;
-}
 
-
-/* container 1 section*/
-
-#Container1 {
+#section1 {
     
     display: flex;
     background-color: rgb(214, 209, 209);
@@ -148,15 +159,15 @@ main {
     font-size: 1.1rem;
 }
 
-/* container 2 section */
 
+/*  /////////////////////////////////// 
 
+Section 2
 
+///////////////////////////////////
+*/
 
-
-/*  version 1.0 */
-
-#Container2 {
+#section2 {
     display: flex;
     outline: 3px solid orangered;
 }
@@ -252,8 +263,47 @@ main {
     height: auto;
     padding-top: 16px;
     padding-bottom: 16px;
-    
-    
+     
 }
 
 
+/*  /////////////////////////////////// 
+
+Section 3 
+
+///////////////////////////////////
+*/
+
+
+#lg-container {
+    background-color: rgb(214, 209, 209);
+    padding: 32px 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    outline: solid green;
+    margin: 0 auto;
+}
+
+.photo-text-container {
+    outline: solid red;
+    width: 300px;
+    margin: 32px;
+}
+
+.photo-container {
+    outline: solid purple;
+    width: 300px;
+}
+
+.photo {
+    outline: solid blue;
+    width: 100%;
+}
+
+.text-container {
+    outline: solid orange;
+    width: 300px;
+    height: auto;
+}
