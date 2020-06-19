@@ -10,6 +10,8 @@ main {
     position: relative;
 }
 
+
+
 /*  /////////////////////////////////// 
 
 Header Section 
@@ -204,6 +206,7 @@ Section 2
     font-weight: 100;
     font-size: 18px;
     color: rgb(49, 48, 48);
+    margin-bottom: 30px;
     
 }
 
@@ -229,7 +232,8 @@ Section 2
     display: flex;
     outline: 2px solid red;
     align-items: center;
-    
+    width: 98%;
+    height: auto;
            
 }
 
@@ -240,7 +244,7 @@ Section 2
 
 .imgContainer {
     outline: 1px solid yellow;
-    width: 39%;
+    max-width: 35%;
     margin-left: 16px;
 }
 
@@ -266,6 +270,25 @@ Section 2
      
 }
 
+.wordsContainer {
+    outline: solid green;
+    
+    padding-left: 16px;
+    
+}
+
+.wordsContainer h2 {
+    margin: 0;
+    font-size: 1.85rem;
+}
+
+.wordsContainer p {
+    font-size: 1rem;
+}
+
+.mid-p {
+    padding: 8px 0;
+}
 
 /*  /////////////////////////////////// 
 
@@ -274,6 +297,14 @@ Section 3
 ///////////////////////////////////
 */
 
+#start-learning {
+    background-color: rgb(214, 209, 209);
+    margin: 0;
+    padding-top: 32px;
+    text-align: center;
+    font-size: 3rem;
+
+}
 
 #lg-container {
     background-color: rgb(214, 209, 209);
@@ -290,20 +321,45 @@ Section 3
     outline: solid red;
     width: 300px;
     margin: 32px;
+    background-color: white;
 }
 
 .photo-container {
-    outline: solid purple;
+    
     width: 300px;
 }
 
 .photo {
-    outline: solid blue;
+    
     width: 100%;
 }
 
 .text-container {
-    outline: solid orange;
-    width: 300px;
-    height: auto;
+    outline: solid aqua;
+    
+    height: 150px;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    max-width: 100%;
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 97%;
+    outline: solid purple;
+    margin: 0;
+    
+    
+}
+ 
+.text h2, p {
+    margin: 0;
+    
 }
