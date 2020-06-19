@@ -420,3 +420,31 @@ video {
     margin-bottom: 8px;
 }
 
+footer {
+    position: relative;
+    top: 32px;
+    display: flex;
+    outline: solid green;
+    justify-content: space-between;   
+    align-items: flex-start;
+    padding-left: 24px;
+    padding-top: 16px;
+}
+
+
+
+footer ul {
+    margin: 0;
+    display: inline-block;
+    outline: solid blue;
+
+}
+
+footer ul li {
+    display: inline-block;
+    outline: solid red;
+    padding-right: 10px;
+}    
+    
+
+
