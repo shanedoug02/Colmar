@@ -48,25 +48,27 @@ header {
 }
 
 #logoName1 {
+    font-size: 1.3rem;
     display: inline-block;
     font-weight: 900;
     color: rgb(38, 49, 49);
 }
 
 #logoName2 {
+    font-size: 1.3rem;
     display: inline-block;
     color: gray;
 }
 
 @media screen and (max-width: 400px) {
-    .menuWords {
+    #menuWords {
         display: none;
     }
 }
 
 
 @media screen and (min-width: 400px) {
-    .menuIcon {
+    #menuIcon {
         display: none;
     }
 }
@@ -314,7 +316,7 @@ Section 3
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     outline: solid green;
     margin: 0 auto;
 }
@@ -420,6 +422,14 @@ video {
     margin-bottom: 8px;
 }
 
+/*  /////////////////////////////////// 
+
+Footer  
+
+///////////////////////////////////
+*/
+
+
 footer {
     position: relative;
     top: 32px;
@@ -430,6 +440,7 @@ footer {
     padding-left: 24px;
     padding-top: 16px;
 }
+
 
 
 
