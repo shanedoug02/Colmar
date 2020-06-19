@@ -408,3 +408,15 @@ video {
     text-align: center;
     font-size: 3rem;
 }    
+
+#wordsUnderVid {
+    margin: 0;
+    outline: solid green;
+    display: block;
+}
+
+#wordsUnderVid h2 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
