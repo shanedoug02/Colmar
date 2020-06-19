@@ -174,7 +174,7 @@ Section 2
     outline: 3px solid orangered;
 }
 
-#leftside2  {
+#leftside  {
     width: 60%;
     margin: 32px 24px; 
     bottom: 0;
@@ -191,7 +191,7 @@ Section 2
     
 }
 
-#leftside2 h2 {
+#leftside h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.2rem;
     font-weight: 900;
@@ -217,7 +217,7 @@ Section 2
 }
 
 
-#rightside2 {
+#rightside {
     
     display: flex;
     width: 40%;
@@ -228,7 +228,7 @@ Section 2
 
 
 
-.threeRectangles {
+.rectangles {
     display: flex;
     outline: 2px solid red;
     align-items: center;
@@ -237,7 +237,7 @@ Section 2
            
 }
 
-#lastRect {
+#gray-rect {
     background-color: rgb(214, 209, 209);
 }
 
@@ -269,6 +269,8 @@ Section 2
     padding-bottom: 16px;
      
 }
+
+
 
 .wordsContainer {
     outline: solid green;
@@ -363,3 +365,46 @@ Section 3
     margin: 0;
     
 }
+
+/*  /////////////////////////////////// 
+
+Section 4 
+
+///////////////////////////////////
+*/
+
+#section4 {
+    display: flex;
+    outline: 3px solid orangered;
+    
+}
+
+video {
+    width: 100%;
+}
+
+#rightside4 {
+    outline: solid purple;
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    margin: 32px 0;
+    align-content: flex-start;
+}
+
+#image-upper {
+    width: 100%;
+    height: auto;
+    padding-bottom: 16px;
+    padding-top: 16px;
+
+    
+}
+
+#thesis {
+         
+    margin: 0;
+    padding-top: 32px;
+    text-align: center;
+    font-size: 3rem;
+}    
