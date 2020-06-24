@@ -130,15 +130,16 @@ header {
 
 
 
-/* Media Queries for Header*/
 
-/*
-@media screen and (max-width: 400px) {
-    
+@media screen and (min-width: 401px) and (max-width: 601px) {
+    #logoName1,
+    #logoName2 {
+        display: none;
+    }
     
 }
 
-*/
+
 
 
 @media screen and (min-width: 400px) {
