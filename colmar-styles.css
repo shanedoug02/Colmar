@@ -356,11 +356,11 @@ Section 2
 
 .wordsContainer h2 {
     margin: 0;
-    font-size: 1.85rem;
+    font-size: 1.85em;
 }
 
 .wordsContainer p {
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .mid-p {
@@ -550,6 +550,10 @@ video {
     
 }
 
+#leftside {
+    outline: 5px solid red;
+}
+
 #thesis {
          
     margin: 0;
@@ -559,7 +563,7 @@ video {
 }    
 
 #wordsUnderVid {
-    margin: 0;
+    margin: 10px;
     outline: solid green;
     display: block;
 }
@@ -568,6 +572,157 @@ video {
     margin-top: 24px;
     margin-bottom: 8px;
 }
+
+@media screen and (max-width: 400px) {
+    #mobile-video {
+        margin-bottom: 32px;
+    }
+
+    #thesis {
+        font-size: 2.2rem;
+        padding-bottom: 16px;
+
+    }
+
+}
+
+
+
+/* when screen is 401px -600px display the following:*/
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+    #section4 {
+        display: block;
+    }
+    #rightside4 {
+        outline: solid purple;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 32px 0;
+        align-content: flex-start;
+    }
+    
+    #leftside {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .wordsContainer4 {
+        display: flex;
+        flex-direction: column;
+        outline: solid peru;
+        justify-content: center;
+        padding-left: 16px;
+       
+        height: 80%;
+    }
+
+    .wordsContainer4 h2 {
+        font-size: 1.5em;
+        margin: 0;
+        padding-bottom: 16px;
+    }
+    .wordsContainer4 p {
+        font-size: 1.1em;
+    }
+
+    .imgContainer {
+        max-width: 35%;
+    }
+
+    
+}    
+
+/* when screen is 601px -720px display the following:*/
+@media only screen and (min-width: 601px) and (max-width: 720px) {
+    #section4 {
+        display: block;
+    }
+    #rightside4 {
+        outline: solid purple;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 32px 0;
+        align-content: flex-start;
+    }
+    #leftside {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .wordsContainer4 {
+        outline: solid aqua;
+    
+        padding-left: 16px;
+       
+        
+        height: 80%;
+    }
+    
+    .wordsContainer4 h2 {
+        font-size: 2em;
+        
+    }
+    .wordsContainer4 p {
+        font-size: 1.5em;
+        
+    }
+
+    .imgContainer {
+        max-width: 35%;
+    }    
+    
+}
+
+/* when screen is 721px -920px display the following:*/
+@media only screen and (min-width: 721px) and (max-width: 920px) {
+    #section4 {
+        display: block;
+    }
+    #rightside4 {
+        outline: solid purple;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 32px 0;
+        align-content: flex-start;
+    }
+    #leftside {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+       
+    .wordsContainer4 {
+        outline: solid gray;
+    
+        padding-left: 16px;
+       
+        
+        height: 80%;
+    }
+    
+    .wordsContainer4 h2 {
+        font-size: 2.1em;
+        
+    }
+    .wordsContainer4 p {
+        font-size: 1.7em;
+        
+    }
+
+    .imgContainer {
+        max-width: 30%;
+    }   
+
+
+}
+
+
+     
+
 
 /*  /////////////////////////////////// 
 
