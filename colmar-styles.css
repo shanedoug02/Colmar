@@ -36,7 +36,7 @@ header {
 
 /*Desktop version for Header*/
 
-.desktop {
+#header-desktop {
     width: 100%;
     outline: solid red;
     justify-content: space-between;
@@ -107,14 +107,14 @@ header {
 }
 /* Mobile Version*/
 
-.mobile {
+#header-mobile {
     width: 100%;
     display: flex;
     outline: solid blue;
     
 }
 
-.mobile ul {
+#header-mobile ul {
     outline: solid red;
     display: flex;
     justify-content: space-evenly;
@@ -124,7 +124,7 @@ header {
 
 }
 
-.mobile ul li {
+#header-mobile ul li {
     display: inline-block
 }
 
@@ -142,14 +142,14 @@ header {
 
 
 @media screen and (min-width: 400px) {
-    .mobile {
+    #header-mobile {
         display: none;
     }
 }
 
 
 @media screen and (max-width: 400px) {
-    .desktop {
+    #header-desktop {
         display: none;
     }
 }
@@ -235,10 +235,6 @@ Section 1
 
 
 }
-
-
-
-
 
 
 /*  /////////////////////////////////// 
@@ -327,21 +323,21 @@ Section 2
     margin-left: 16px;
 }
 
-#image1 {
+#image1-desktop {
     width: 100%;
     height: auto;
     padding-bottom: 16px;
     
 }
 
-#image2 {
+#image2-desktop {
     width: 100%;
     height: auto;
     padding-top: 16px;
     padding-bottom: 16px;
 }    
 
-#image3 {
+#image3-desktop {
     width: 100%;
     height: auto;
     padding-top: 16px;
@@ -371,6 +367,56 @@ Section 2
     padding: 8px 0;
 }
 
+/*media queries section 2*/
+
+@media screen and (min-width: 400px) {
+    .mobile {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .desktop {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    #leftside {
+        display: none;
+    }
+    #rightside {
+        width: 100%;
+    }
+    .rectangles {
+        display: block;
+    }
+    .imgContainer {
+        outline: 1px solid blue;
+        max-width: 100%;
+        margin: 16px;
+        
+    }
+    #image1-desktop, #image2-desktop, #image3-desktop  {
+        display: none;                        
+    }
+    #image1-mobile, #image2-mobile, #image3-mobile {
+        max-width: 100%;
+    }
+
+
+}
+
+
+
+
 /*  /////////////////////////////////// 
 
 Section 3 
@@ -389,7 +435,7 @@ Section 3
 
 #lg-container {
     background-color: rgb(214, 209, 209);
-    padding: 32px 56px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -444,6 +490,30 @@ Section 3
     margin: 0;
     
 }
+
+@media screen and (max-width: 400px) {
+    #start-learning-mobile {
+        
+        margin: 16px 16px;
+          
+    }
+
+    #start-learning-mobile h2 {
+        padding: 16px 16px 24px 16px;
+        margin: 8px; 
+        background-color: rgb(214, 209, 209);
+    }
+
+    #start-learning {
+        padding-bottom: 16px;
+        font-size: 2.2rem;
+    }
+    
+
+
+}
+
+
 
 /*  /////////////////////////////////// 
 
