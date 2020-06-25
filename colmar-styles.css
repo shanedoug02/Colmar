@@ -333,9 +333,11 @@ Section 2
 }
 
 #wordsUnderImg {
+    
     display: block;
     outline: 1px solid black;
-    padding: 0px 16px 0px 16px;
+    padding-left: 24px;
+    padding-right: 24px;
         
 }
 
