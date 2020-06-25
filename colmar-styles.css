@@ -335,6 +335,7 @@ Section 2
 #wordsUnderImg {
     display: block;
     outline: 1px solid black;
+    padding: 0px 16px 0px 16px;
         
 }
 
@@ -490,7 +491,6 @@ Section 3
     font-size: 3rem;
 
 }
-
 
 
 #lg-container {
