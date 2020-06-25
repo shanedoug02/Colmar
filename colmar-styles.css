@@ -26,7 +26,7 @@ Header Section
 
 
 header {
-    outline: solid yellow;
+    
     position: fixed;
     width: 100%;
     height: 64px;
@@ -43,7 +43,7 @@ header {
 
 #header-desktop {
     width: 100%;
-    outline: solid red;
+    
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@ header {
 /* Logo Related*/
 
 #logoImage-Name {
-    outline: solid gray;
+    
     height: 32px;
     display: flex;
     justify-content: center;
@@ -87,18 +87,20 @@ header {
 /* Menu Words */
 
 #menuWords {
-    outline: solid blue;
+    
     display: flex;
     margin: 0;
     align-items: center;
     height: 32px;
     margin-left: 16px;
+    
 }
 
 #menuWords ul {
     display: flex;
     margin: 0;
     align-items: center;
+    
     
 } 
 
@@ -109,18 +111,25 @@ header {
     display: inline-block;
     padding-right: 16px;
     
+    
 }
+
+#menuWords li a {
+    color: black;
+    text-decoration: none;
+}
+
 /* Mobile Version*/
 
 #header-mobile {
     width: 100%;
     display: flex;
-    outline: solid blue;
+    
     
 }
 
 #header-mobile ul {
-    outline: solid red;
+    
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -223,7 +232,7 @@ Section 1
     #leftside1  {
         margin: 0;
         width: 100%;
-        outline: solid blue;
+        
        
     }
 
@@ -249,16 +258,16 @@ Section 1
     #bannerImg {
         width: 100%;
         
-        outline: solid purple;
+        
     }
     #leftside1 {
-        outline: solid yellow;
+       
         width: 70%;
         margin: 0 auto;
     }
 
     #rightside1 {
-        outline: solid green;
+        
         width: 85%;
         margin: 0 auto;
         display: flex;
@@ -298,7 +307,7 @@ Section 2
 
 #section2 {
     display: flex;
-    outline: 3px solid orangered;
+    
 }
 
 #leftside  {
@@ -306,7 +315,7 @@ Section 2
     margin: 32px 24px; 
     bottom: 0;
     padding: 0;
-    outline: 2px solid blue;
+    
     display: flexbox;
     align-content: space-between;
     
@@ -340,7 +349,7 @@ Section 2
 #wordsUnderImg {
     
     display: block;
-    outline: 1px solid black;
+    
     padding-left: 24px;
     padding-right: 24px;
         
@@ -360,7 +369,7 @@ Section 2
 
 .rectangles {
     display: flex;
-    outline: 2px solid red;
+    
     align-items: center;
     width: 98%;
     height: auto;
@@ -373,7 +382,7 @@ Section 2
 
 
 .imgContainer {
-    outline: 1px solid yellow;
+    
     max-width: 35%;
     margin-left: 16px;
 }
@@ -403,8 +412,7 @@ Section 2
 
 
 .wordsContainer {
-    outline: solid green;
-    
+        
     padding-left: 16px;
     
 }
@@ -420,6 +428,17 @@ Section 2
 
 .mid-p {
     padding: 8px 0;
+}
+
+.read {
+    color: rgb(16, 121, 170);
+    
+
+}
+.wordsContainer a {
+    text-decoration: none;
+    font-size: 1.2em;
+
 }
 
 /*media queries section 2*/
@@ -455,7 +474,7 @@ Section 2
         display: block;
     }
     .imgContainer {
-        outline: 1px solid blue;
+        
         max-width: 100%;
         margin: 16px;
         
@@ -507,14 +526,14 @@ Section 3
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    outline: solid green;
+    
     margin: 0 auto;
 }
 
 
 
 .photo-text-container {
-    outline: solid red;
+    
     width: 300px;
     margin: 32px;
     background-color: white;
@@ -531,7 +550,7 @@ Section 3
 }
 
 .text-container {
-    outline: solid aqua;
+    
     
     height: 150px;
     
@@ -549,7 +568,7 @@ Section 3
     justify-content: space-between;
     width: 100%;
     height: 97%;
-    outline: solid purple;
+    
     margin: 0;
     
     
@@ -593,7 +612,7 @@ Section 4
 
 #section4 {
     display: flex;
-    outline: 3px solid orangered;
+    
     
 }
 
@@ -602,7 +621,7 @@ video {
 }
 
 #rightside4 {
-    outline: solid purple;
+    
     display: flex;
     width: 40%;
     flex-wrap: wrap;
@@ -620,7 +639,7 @@ video {
 }
 
 #leftside {
-    outline: 5px solid red;
+    
 }
 
 #thesis {
@@ -633,7 +652,7 @@ video {
 
 #wordsUnderVid {
     margin: 10px;
-    outline: solid green;
+    
     display: block;
 }
 
@@ -664,7 +683,7 @@ video {
         display: block;
     }
     #rightside4 {
-        outline: solid purple;
+        
         display: flex;
         width: 100%;
         flex-wrap: wrap;
@@ -680,7 +699,7 @@ video {
     .wordsContainer4 {
         display: flex;
         flex-direction: column;
-        outline: solid peru;
+        
         justify-content: center;
         padding-left: 16px;
        
@@ -709,7 +728,7 @@ video {
         display: block;
     }
     #rightside4 {
-        outline: solid purple;
+        
         display: flex;
         width: 100%;
         flex-wrap: wrap;
@@ -722,7 +741,7 @@ video {
     }
 
     .wordsContainer4 {
-        outline: solid aqua;
+       
     
         padding-left: 16px;
        
@@ -751,7 +770,7 @@ video {
         display: block;
     }
     #rightside4 {
-        outline: solid purple;
+        
         display: flex;
         width: 100%;
         flex-wrap: wrap;
@@ -765,7 +784,7 @@ video {
 
        
     .wordsContainer4 {
-        outline: solid gray;
+        
     
         padding-left: 16px;
        
@@ -805,12 +824,12 @@ footer {
     position: relative;
     top: 32px;
     display: flex;
-    outline: solid green;
+    
     justify-content: space-between;   
     align-items: flex-start;
     padding-left: 24px;
     padding-top: 16px;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
 }
 
 
@@ -819,17 +838,17 @@ footer {
 footer ul {
     margin: 0;
     display: inline-block;
-    outline: solid blue;
+    
 
 }
 
 footer ul li {
     display: inline-block;
-    outline: solid red;
-    padding-right: 10px;
+    
+    padding-right: 16px;
 }    
     
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 480px) {
     footer ul,
     footer ul li {
         display: none;
