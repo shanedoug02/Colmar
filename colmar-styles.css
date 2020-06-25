@@ -207,7 +207,7 @@ Section 1
 
 /*media queries for section 1*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 959px) {
     #section1 {
         display: block;
         margin: 0;
@@ -216,6 +216,7 @@ Section 1
     }
     #leftside1  {
         width: 100%;
+        outline: solid blue;
        
     }
 
@@ -235,6 +236,49 @@ Section 1
     }
 
 
+}
+
+@media screen and (min-width: 701px) and (max-width: 960px) {
+    #bannerImg {
+        width: 100%;
+        
+        outline: solid purple;
+    }
+    #leftside1 {
+        outline: solid yellow;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #rightside1 {
+        outline: solid green;
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+    #rightside1 h1 {
+        padding-bottom: 32px;
+        margin: 0 auto;
+        font-size: 1.8rem;
+    }
+
+    #rightside1 p {
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+
+    #rightside1 button {
+        margin-top: 24px;
+        width: 90%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    */
 }
 
 
@@ -370,6 +414,7 @@ Section 2
 
 /*media queries section 2*/
 
+
 @media screen and (min-width: 400px) {
     .mobile {
         display: none;
@@ -415,7 +460,28 @@ Section 2
 
 }
 
+/* when screen is 401px -600px display the following:*/
+@media only screen and (min-width: 401px) and (max-width: 920px) {
+    #section2 {
+        display: block;
+    }
+    #rightside {
+        width: 100%;
+    }
 
+
+}
+
+
+
+/* when screen is 601px -720px display the following:*/
+@media only screen and (min-width: 601px) and (max-width: 720px)
+
+
+
+/* when screen is 721px -920px display the following:*/
+@media only screen and (min-width: 721px) and (max-width: 920px)
+ 
 
 
 /*  /////////////////////////////////// 
@@ -760,5 +826,11 @@ footer ul li {
     padding-right: 10px;
 }    
     
+@media only screen and (max-width: 475px) {
+    footer ul,
+    footer ul li {
+        display: none;
+    }
 
+}
 
