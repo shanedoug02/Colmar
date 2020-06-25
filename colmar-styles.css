@@ -10,7 +10,12 @@ main {
     position: relative;
 }
 
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
 
+font-family: 'Roboto', sans-serif;
 
 /*  /////////////////////////////////// 
 
@@ -805,6 +810,7 @@ footer {
     align-items: flex-start;
     padding-left: 24px;
     padding-top: 16px;
+    padding-bottom: 50px;
 }
 
 
