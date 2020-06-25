@@ -216,6 +216,7 @@ Section 1
 
     }
     #leftside1  {
+        margin: 0;
         width: 100%;
         outline: solid blue;
        
@@ -473,18 +474,6 @@ Section 2
 
 }
 
-
-
-/* when screen is 601px -720px display the following:*/
-@media only screen and (min-width: 601px) and (max-width: 720px)
-
-
-
-/* when screen is 721px -920px display the following:*/
-@media only screen and (min-width: 721px) and (max-width: 920px)
- 
-
-
 /*  /////////////////////////////////// 
 
 Section 3 
@@ -492,7 +481,8 @@ Section 3
 ///////////////////////////////////
 */
 
-#start-learning {
+
+#start {
     background-color: rgb(214, 209, 209);
     margin: 0;
     padding-top: 32px;
@@ -500,6 +490,8 @@ Section 3
     font-size: 3rem;
 
 }
+
+
 
 #lg-container {
     background-color: rgb(214, 209, 209);
@@ -511,6 +503,8 @@ Section 3
     outline: solid green;
     margin: 0 auto;
 }
+
+
 
 .photo-text-container {
     outline: solid red;
